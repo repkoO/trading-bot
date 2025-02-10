@@ -1,0 +1,10 @@
+#bot {
+  margin: 0 16px;
+  margin-top: 21px;
+}
+
+.bot__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}

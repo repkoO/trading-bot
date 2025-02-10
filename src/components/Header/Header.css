@@ -1,8 +1,8 @@
 header {
   display: flex;
-  margin-top: 71px;
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-top: 27px;
+  margin-left: 16px;
+  margin-right: 16px;
   align-items: center;
   justify-content: space-between;
 }
@@ -10,10 +10,9 @@ header {
 .menu__icon {
   position: relative;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 18px;
+  height: 15px;
   cursor: pointer;
-  transition: 0.3s ease-in;
 }
 
 .menu__line {
@@ -48,5 +47,6 @@ header {
 }
 
 h1 {
-  font-size: 48px;
+  color: var(--main-color);
+  font-size: 17px;
 }

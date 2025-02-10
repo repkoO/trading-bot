@@ -8,9 +8,20 @@
   --main-color: rgba(255, 255, 255, 0.466);
 }
 
+@font-face {
+  font-family: 'Open';
+  src: url('./assets/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open-lite';
+  src: url('./assets/fonts/OpenSans-Light.ttf');
+}
+
 body {
   background-image: url(./assets/image/bg_2.png), url(./assets/image/bg.png);
   background-size: cover;
   background-repeat: no-repeat, repeat;
   color: var(--main-color);
+  font-family: 'Open';
 }
